@@ -31,3 +31,25 @@
    2. Manage the  cluster from one tool.
    3. Use with some CM tools to configure kafka.  
 3. If not kafka manager: How do we manage kafka? Docker + sysmtemd ?
+
+
+----
+
+### Some devops notes:
+Dev related:
+1. Number of consumers
+2. Number of topic
+3. Number of message per second
+4.
+
+Ops related:
+1. Number of configured partitions in each topic
+2. Number of nodes in kafka cluster
+3. Zookeeper failover
+4. Managing consumers
+5. Managing Brokers
+6. Managing producers
+7. Throughput for each kafka cluster
+8. Tolerable latency
+9. Systemd for managing kafka clusters?
+10.
