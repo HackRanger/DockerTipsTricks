@@ -1,5 +1,6 @@
 # Notes by others:
 1. [Kafka manager: Initial notes from others](http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager): Conclusion ( But its old from Mar.2015 ):
+
 >  As I started playing around with Kafka Manager it became apparent to me that this tool was only intended to be used as a UI for administration tasks, not for monitoring health (such as lag) of existing production topics. So soon enough I will also be looking at web-console
 
 ----
@@ -16,7 +17,7 @@
 -----
 # Cons
 1. No view for zookeeper & kafka combined
-2. Another attempt create a configuration manager for a specific application. than going for existing PM's.
+2. Another attempt create a configuration manager for a specific application. than going for existing CM's.
 3. We get metrics into monitoring and manage kafka containers with other tools.  
 
 ----
