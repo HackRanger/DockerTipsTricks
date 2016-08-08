@@ -17,3 +17,7 @@ Some of the Best practices are documented in the link:
 2. Minimize the number of layers
 3. Sort arguments which are passed to scripts or commands.
 4. [Why to run apache in foreground](https://coreos.com/os/docs/latest/getting-started-with-docker.html):Run Apache in foreground. We need to run the apache process in the foreground, since our container will stop when the process specified in the docker run command stops. We can do this with a flag -D when starting the apache2 process: ``` /usr/sbin/apache2ctl -D FOREGROUND```
+5. [Permanently running a container](https://coreos.com/os/docs/latest/getting-started-with-docker.html):
+While the sections above explained how to run a container when configuring it, for a production setup, you should not manually start and babysit containers. Instead, create a systemd unit file to make systemd keep that container running.
+6. [Systemd to manage the lifecycle of your Docker containers](https://coreos.com/docs/launching-containers/launching/getting-started-with-systemd/)
+7. 
