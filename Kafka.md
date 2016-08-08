@@ -1,3 +1,5 @@
+__My Conclusion: Just deploy it and see the usefulness.__
+
 # Notes by others:
 1. [Kafka manager: Initial notes from others](http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager): Conclusion ( But its old from Mar.2015 ):
 
