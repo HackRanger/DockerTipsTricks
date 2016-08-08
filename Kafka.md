@@ -38,13 +38,12 @@ __My Conclusion: Just deploy it and see the usefulness.__
 ----
 
 ### Some devops notes:
-Dev related:
+#### Dev related:
 1. Number of consumers
 2. Number of topic
 3. Number of message per second
-4.
 
-Ops related:
+#### Ops related:
 1. Number of configured partitions in each topic
 2. Number of nodes in kafka cluster
 3. Zookeeper failover
@@ -54,4 +53,3 @@ Ops related:
 7. Throughput for each kafka cluster
 8. Tolerable latency
 9. Systemd for managing kafka clusters?
-10.
