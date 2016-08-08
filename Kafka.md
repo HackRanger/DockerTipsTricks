@@ -1,6 +1,6 @@
 # Notes by others:
-1. [Kafka manager: Initial notes from others](http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager):
-> Conclusion: As I started playing around with Kafka Manager it became apparent to me that this tool was only intended to be used as a UI for administration tasks, not for monitoring health (such as lag) of existing production topics. So soon enough I will also be looking at web-console
+1. [Kafka manager: Initial notes from others](http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager): Conclusion ( But its old from Mar.2015 ):
+>  As I started playing around with Kafka Manager it became apparent to me that this tool was only intended to be used as a UI for administration tasks, not for monitoring health (such as lag) of existing production topics. So soon enough I will also be looking at web-console
 
 ----
 
