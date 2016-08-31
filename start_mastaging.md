@@ -35,6 +35,43 @@ mastaging_provision.py cloud_config.<UID>.yml
 
 * Add user ssh keys automatically. I feel its not a good idea to use ma_staging_rsa for everyone.
 
+
+# Mastaging flow
+
+```
++--------------------------------------+
+|                        	       |  
+|   $mkdir ma_cloud && cd ma_cloud     |-----------------> Create config directory for staging environment.
+|                        	       |
++--------------------------------------+
+           |                           
+           |                           
+           v                           
++------------------------+             
+|                        |             
+|   mastaging_init.py    |-------------------------------> Initialises the folder with Salt states and pillars.
+|                        |
++------------------------+
+           |
+           |
+           v
++------------------------------------------------+
+|                        			 |  
+|   mastaging_aws_provision.py cloud_config.yml  |-------> Create's VMs on AWS based on the configuration in cloud_config.yml. 
+|                        			 |
++------------------------------------------------+
+           |
+           |
+           v
++------------------------------------------------+
+|						 |
+| mastaging_provision.py cloud_config.<UID>.yml  |--------> Copy the salt states to minions and applies states.  
+|						 |
++------------------------------------------------+
+
+```
+
+
 # Diagrams
 * Below diagram helps in identifying which services are running on which host. This will help in troubleshooting the problems.
 
@@ -157,4 +194,5 @@ mastaging_provision.py cloud_config.<UID>.yml
 # Development notes:
 
 * Use the following guidelines for development of safe code: [Python Code Safe](https://security.openstack.org/guidelines/)
-*
+
+
