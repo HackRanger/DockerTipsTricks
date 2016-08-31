@@ -1,4 +1,4 @@
-__My Conclusion: Just deploy it and see the usefulness.__
+__My Conclusion: We can directly publish the metics to graphite and if the need arise we can have a kafka manager/overivew.__
 
 # Notes by others:
 1. [Kafka manager: Initial notes from others](http://edbaker.weebly.com/blog/install-and-evaluation-of-yahoos-kafka-manager): Conclusion ( But its old from Mar.2015 ):
@@ -15,10 +15,11 @@ __My Conclusion: Just deploy it and see the usefulness.__
 5. Consumer lags are displayed. Ops can identify easily if the consumers needs to be restarted.
 6. Can be extended.
 7. Can be used when our monitoring fails.
+8. Best for system wide information. (Suitable for management to get an overview)
 
 -----
 # Cons
-1. No view for zookeeper & kafka combined
+1. No view for zookeeper & kafka combined ([Something like this](https://github.com/claudemamo/kafka-web-console))
 2. Another attempt create a configuration manager for a specific application. than going for existing CM's.
 3. We get metrics into monitoring and manage kafka containers with other tools.  
 
